@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body {
+    background: hsl(212, 45%, 89%);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: hsl(212, 45%, 89%);
+    display: flex; /*Faz com que eu possa manipular todos os filhos desse container com novas propriedades. Tipo de bloqueio*/
+    flex-direction: row; /*Colocar os itens em mesma linha*/
+    justify-content: center; /*Controla o alinhamento de todos os itens no eixo principal (CENTRO)*/
+    align-items: center; /*Controla o alinhamento de todos os itens no eixo principal (CENTRO)*/
+}
+section {
+    width: 320px;
+    height: 485px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 4%;
+}
+img {
+    max-width: 90%;
+    max-height: 90%;
+    width: 280px;
+    height: 280px;
+    border-radius: 3%;
+    margin: 20px 20px;
+}
+h1 {
+    width: 230px;
+    text-align: center;
+    margin: 0 auto 15px auto;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+}
+p {
+    width: 241px;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
